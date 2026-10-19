@@ -15,7 +15,6 @@ It never books or cancels a room on a student's behalf.
 ## Team
 
 | Name |
-| --- | --- |
 | Alexander Eng | 
 | Arshan Khimani |
 | Lee Baillard | 
