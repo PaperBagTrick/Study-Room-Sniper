@@ -6,7 +6,7 @@
 | Stakeholder role | UTD OIT (identity / SSO) and campus accessibility staff |
 | Channel | Email |
 | Sent on | 2026-11-08 |
-| Reply received on | Pending |
+| Reply received on | 2026-11-11 |
 | Questions | Q3, Q6 (P2 document, section 11) |
 | Requirements affected | FR-02, FR-08, QR-04, QR-06, CON-01; assumption A3; ADR-03; risk R3 |
 
@@ -30,15 +30,16 @@
 
 ## Reply summary (de-identified)
 
-_Pending. When a reply arrives, summarize it here in your own words. Do not paste the raw reply or include names or contact details._
+Reply from UTD OIT, received 2026-11-11. Summarized in our own words; the raw reply and the sender's name are not stored in the repository.
 
 | Question | Answer in brief | Effect on requirements / design |
 | --- | --- | --- |
-| Q3 | Pending | Confirms CON-01, A3 and ADR-03, or triggers a change request to CON-01 (email-verified accounts) |
-| Q6 | Pending | Confirms or changes the standard in QR-04 |
+| Q3 | Students cannot request NetID single sign-on. A UTD faculty or staff member must submit the request (OIT knowledge base article "Request Single Sign-On for Application or Service"). If the professor sponsors the project, they can submit it and state that the app needs only NetID and UTD email. If that route is not available, OIT suggests discussing other sign-in options with the professor. | A3 holds only with a faculty sponsor. CON-01 and ADR-03 now depend on the instructor sponsoring the request. If the instructor will not, a change request to CON-01 is needed (email-verified accounts, as described in A3 and R3). ADR-03 evidence must record this answer. |
+| Q6 | OIT pointed to UTD's digital accessibility policy and guidelines on the Web Resources Center "Web Accessibility" page, which reference WCAG 2.1. | QR-04 already targets WCAG 2.2 Level AA, which includes every WCAG 2.1 Level AA success criterion, so meeting QR-04 also meets UTD's 2.1 guideline. No change to QR-04 is required; its source can cite the UTD policy alongside [R5]. |
 
 ## Follow-up
 
-- [ ] Update section 11 status for Q3 and Q6
+- [ ] Update section 11: Q3 answered (faculty sponsor required), Q6 answered (UTD guidelines reference WCAG 2.1; QR-04 at 2.2 AA covers it)
 - [ ] Update ADR-03 evidence (section 7.1) with the OIT answer
-- [ ] If NetID SSO is refused, ask Alexander to raise the CON-01 change request (risk R3)
+- [ ] Ask the instructor whether they will sponsor the NetID SSO request
+- [ ] If the instructor will not sponsor it, ask Alexander Eng to raise the CON-01 change request (risk R3)
